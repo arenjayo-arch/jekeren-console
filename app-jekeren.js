@@ -1,5 +1,3 @@
-
-
 const readline = require('readline');
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
@@ -26,6 +24,7 @@ function average(numbers) {
   if (numbers.length === 0) return 0;
   return add(numbers) / numbers.length;
 }
+//Pasumpay ko mga pre: Aren Jayo
 
 async function getPositiveInt(promptText) {
   while (true) {
@@ -43,7 +42,7 @@ async function getNumber(promptText) {
     console.log('That is not a valid number. Try again (e.g., 3.14 or -2).');
   }
 }
-
+//Nasumpayan na nako bai: Jerry Cajote
 
 async function main() {
   try {
@@ -90,7 +89,6 @@ async function main() {
 
 main(); 
 
-
-//Done my part
+//Done my part: Kenneth Capada
 =======
 
